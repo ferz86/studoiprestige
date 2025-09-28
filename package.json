@@ -1,0 +1,26 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Studio Prestige beauty salon",
+  "main": "sss.js",
+  "scripts": {
+    "start": "node sss.js",
+    "dev": "nodemon sss.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "beauty salon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
